@@ -1,0 +1,24 @@
+.navColor{
+    position: fixed;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between;  */
+    /* background-color: rgb(186, 16, 16);    */
+    background-color: rgba(243, 235, 235, 0.992);
+    z-index: 100;
+}
+.navTransparent
+{
+    position: fixed;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between;  */
+    /* background-color:gold;    */
+    z-index: 100;
+
+}
+
+.header .navbar-default .navbar-nav>li:hover a{
+    color: #333;
+     border-bottom: 1px solid #FFF
+}

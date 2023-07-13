@@ -1,0 +1,12 @@
+ul li {
+    list-style: none;
+    padding: 0.4rem 0;
+}
+
+ul li a:hover{
+    color: #fff !important;
+}
+
+ul li a {
+    text-decoration: none;
+}

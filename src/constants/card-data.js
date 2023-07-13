@@ -1,0 +1,13 @@
+import Card1 from '../images/homepage/cards/landing-page--02.jpg'
+import Card2 from '../images/homepage/cards/landing-page--03.jpg'
+import Card3 from '../images/homepage/cards/landing-page--04.jpg'
+// import Card4 from '../images/homepage/cards/landing-page--05.jpg'
+
+export const cardData = [
+    {id:1, url: Card1, heading: "Real Estate Property Trading", button: "Read more", p: "Nirmanam Realtors LLP provide the best Real Estate Trading services. Concisely, Nirmanam Realtors LLP serves the interested Sellers willing to buy the most suitable property having high Return on Investment (ROI) and save tax on their capital gains or profit after Sale of the Property. Definition of 'Trade-in' in real estate refers to granting permission to a realtor to list the properties on behalf of the Seller and finding the most profitable and best deals for sale. Real Estate Trading is a type of system where Bartering of properties is done through a mediator to ease the process of buying-selling the property and legally escape the ambit of paying high taxes on sale and purchase of the property by re-investing the capital gains made through sale of property into a new property. We provide free listings of your property to find the best match for your needs." },
+
+    {id:2, url: Card2, heading: "Real Estate Property Exchange", button: "Read more", p: "Nirmanam Realtors LLP provide the best Real Estate Exchange services. Real Estate Exchange refers to the exchange of two properties between two parties with no or minimal consideration in money to match the value of both properties. Definition of Trade-in refers to Barter or Swap of properties is allowed under Indian Property Law and we provide you with best of the options to choose your Barter from. The idea behind bartering of property is that whatever is useless for a person can be useful for someone else or one can optimize their capital investment on what is more fruitful to them providing utmost utilization any Return on Investment (ROI) to their Real Estate Property. Precisely, Real Estate Trading is a type of system where Bartering of properties is done wheretwo parties exchange their properties in their best interest to ease the process of finding the best deals in buying-selling the property and legally escape the ambit of paying high taxes on sale of the property by re-investing the capital gains made through sale of property into a new property. It&#39;s as simple as buying a house or selling for profit or renting for a passive income wherein youSit back at the comfort of your home and Nirmanam Realtors takes the full-fledged task offinding you the best match to your Real-Estate." },
+
+    // {id:1, url: Card1, heading: "Real Esate Land Liaising", button: "Read more" },
+    
+]

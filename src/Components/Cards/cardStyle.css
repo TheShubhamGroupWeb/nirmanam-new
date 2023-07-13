@@ -1,0 +1,42 @@
+/* const CustomLink = styled.div`
+width: fit-content;
+ text-decoration: none;
+ background-color: green;
+color: #fff;
+padding: 0.4rem 0.6rem;
+outline: none;
+border: none;
+border-radius: 3px 7px;
+cursor: pointer;
+box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.7);
+
+&:hover {
+border-radius: 7px 3px;
+background-color: #ec0808;
+
+}
+
+` */
+
+.card-style{
+    width: fit-content;
+ text-decoration: none;
+ background-color: green;
+color: #fff;
+padding: 0.4rem 0.6rem;
+outline: none;
+border: none;
+border-radius: 3px 7px;
+cursor: pointer;
+box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card-style:hover{
+    border-radius: 7px 3px;
+    background-color: #ec0808; 
+}
+
+/* &:hover {
+border-radius: 7px 3px;
+background-color: #ec0808;
+} */
