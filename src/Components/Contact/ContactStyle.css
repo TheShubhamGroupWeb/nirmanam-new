@@ -1,5 +1,7 @@
 form{
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background-color: black;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.8);
     padding: 1rem;
     width: 80%;
     opacity: 0.9;
@@ -29,3 +31,4 @@ form textarea{
     border-radius: 2px 4px;
 
 }
+

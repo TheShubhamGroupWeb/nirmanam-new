@@ -35,7 +35,7 @@ function About() {
     <>
       <section className="about-container padding">
         <div className="container  ">
-        <h3 className="main-heading  py-2">About US</h3>
+        <h3 className="main-heading margin py-2">About US</h3>
           <div className="row " style={{alignContent: "center", justifyContent: "center",boxShadow: "3px 4px 4px 4px rgba(0,0,0,0.4)", borderRadius: "3px 4px"}}>
        
             <div className="col-md-10 py-5" style={{alignItems: "start", justifyContent:"start"}}>

@@ -41,14 +41,13 @@ function RealEstateTradingCard({url,heading}) {
         {/* <div className="container">
           <div className="row ">
         <div className="col-md-4 d-flex"> */}
-        <div className="col-md-5 " >
+        <div className="col-md-5 " style={{display: "flex", justifyContent: "center", alignItems: "center"}} >
         <Card >
       <Card.Img variant="top" src={TradingCardImg} />
       <Card.Body>
         <Card.Title>Real Estate Property Trading</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Our Real Estate Property Trading Service is available trade-in with properties to buy or sell across India. Our platform offers extensive property listings, From apartments, villas to offices and retail spaces, catering to different preferences and budgets.
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
         {/* <CustomButton customStyle={"success"} handleButtonValue={handleButtonValue}>Read More</CustomButton> */}

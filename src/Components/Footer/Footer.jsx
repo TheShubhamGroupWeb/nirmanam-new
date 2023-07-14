@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Logo from '../../images/logo/mr.png'
+import FooterLogo from '../../images/logo/nirmanam-_logo.png'
 
 import './FooterStyles.css'
 
@@ -22,13 +22,14 @@ function Footer() {
               
                 <div className="col-md-3 text-center">
 
-                  <div className="footer-logo-wrapper p-0" style={{width: "150px"}}>
-                  <img className='img-fluid p-0' src={Logo} alt="" />
-                  </div>
+                 
 
-                <h3>Nirmanam Relators</h3>
-                <p class="footer-first-p mb-4 p-0" style={{lineHeight: 0}}>PRIME PLOTS & LAND EXPERTS</p>
-                <p>We assist you in making your dream a reality</p>
+                <h3 className='footer-company-name'>Nirmanam Relators</h3>
+                <div className="footer-logo-wrapper p-0" style={{width: "", padding: "0 1rem"}}>
+                  <img className='img-fluid p-0' src={FooterLogo} alt="" />
+                  </div>
+                {/* <p class="footer-first-p mb-4 p-0" style={{lineHeight: 0}}>PRIME PLOTS & LAND EXPERTS</p>
+                <p>We assist you in making your dream a reality</p> */}
 
                 
                {/* <div class="social-icons-footer">

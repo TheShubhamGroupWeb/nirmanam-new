@@ -10,3 +10,14 @@ ul li a:hover{
 ul li a {
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    .footer-logo-wrapper{
+        width: 150px;
+        margin: 1rem 0;
+    }
+
+    .footer-company-name{
+        display: none;
+    }
+}

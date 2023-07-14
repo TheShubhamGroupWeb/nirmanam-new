@@ -66,6 +66,25 @@ ul>li{
   }
 } */
 
+/* universal styling for mobile */
+
+@media (max-width: 600px) {
+  .margin{
+    margin: 2.5rem 0;
+  }
+  
+  .padding{
+    padding: 2.5rem 0;
+  }
+
+  .card{
+    width: 280px;
+  }
+
+  
+}
+
+/* universal styling for mobile */
 
 /* For banner hide photo and adujust text */
 @media (max-width: 980px) {
@@ -87,3 +106,4 @@ ul>li{
   }
 }
 /* For banner hide photo and adujust text */
+

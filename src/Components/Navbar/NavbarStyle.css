@@ -22,3 +22,12 @@
     color: #333;
      border-bottom: 1px solid #FFF
 }
+
+
+.navbar-links{
+    text-decoration: none;
+    color: #333;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

@@ -27,6 +27,7 @@ const H4 = styled.h4`
 `;
 
 
+
 function Home() {
   return (
     <>
@@ -86,14 +87,14 @@ function Home() {
       <h3 class="main-heading mb-4">OUR SERVICES</h3>
       </div>
       <div className="row justify-content-center align-items-center" style={{gap: "1.5rem"}}>
-      <RealEstateTradingCard/>
+      <RealEstateTradingCard />
       <PropertyExchangeCard/>
       </div>
     </div>
     </ServiceWrapper>
 
 
-    <MidBanner/>    
+    {/* <MidBanner/>     */}
 {/* 
     <div className="container">
       <div className="row">

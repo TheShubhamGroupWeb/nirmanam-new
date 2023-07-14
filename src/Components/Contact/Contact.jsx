@@ -148,7 +148,7 @@ function Contact() {
                 placeholder="Message"
               ></textarea>
 
-              <CustomButton handleButtonValue={handleSubmit}>
+              <CustomButton handleButtonValue={handleSubmit} >
                 Submit
               </CustomButton>
             </form>

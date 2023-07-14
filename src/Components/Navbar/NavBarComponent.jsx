@@ -8,6 +8,7 @@ import Logo from '../../images/logo/mr.png'
 import { useEffect, useState } from 'react';
 
 import './NavbarStyle.css'
+import { Link } from 'react-router-dom';
 
 function NavBarComponent({isScoll}) {
 
@@ -26,7 +27,7 @@ function NavBarComponent({isScoll}) {
 }, [height])
 useEffect(() => {
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY)
+        // console.log(window.scrollY)
         setHeight(window.scrollY)
     }, true);
   }, []);
@@ -35,7 +36,7 @@ useEffect(() => {
   return (
     // <Navbar expand="lg" className=" position-fixed z-3 w-100 " style={{backgroundColor: "none"}}> 
 
-<Navbar expand="lg" className={scroll ? "navColor" : "navTransparent"} style={{backgroundColor: "none", position: "fixed", width: "100%", boxShadow: "3px 4px 4px 4px rgba(0,0,0,0.2)", padding: 0}}>         
+<Navbar expand="lg" className={scroll ? "navColor" : "navTransparent"} style={{backgroundColor: "none", position: "fixed", width: "100%", padding: 0}}>         
 
       <Container fluid>
         <Navbar.Brand href="#"> <img src={Logo} alt="" className='img-fluid' style={{height: "70px", paddingLeft: "1rem"}}/> </Navbar.Brand>
@@ -46,14 +47,9 @@ useEffect(() => {
             style={{ maxHeight: '100px', padding: "0 1.5rem" }}
             navbarScroll 
           >
-            <Nav.Link href="/">Home</Nav.Link>
+            {/* <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Services" id="navbarScrollingDropdown">
-              {/* <NavDropdown.Item href="#action3">Real Esate Trading</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-              Property Exchange
-              </NavDropdown.Item> */}
-
-              {/* <NavDropdown.Divider /> */}
+            
               <NavDropdown.Item href="real-estate-property-trading">
               Real Estate Trading
               </NavDropdown.Item>
@@ -69,7 +65,18 @@ useEffect(() => {
 
             <Nav.Link href="about">About</Nav.Link>
             
-            <Nav.Link href="contact">Contact</Nav.Link>
+            <Nav.Link href="contact">Contact</Nav.Link> */}
+
+            <Link className='navbar-links' to={'/'}>Home</Link>
+
+            <Link className='navbar-links' to={'/about'}>About</Link>
+
+
+            <Link className='navbar-links' to={'/real-estate-property-trading'}>Real Estate Trading</Link>
+            <Link className='navbar-links' to={'/real-estate-property-exchange'}>Real Estate Exchange</Link>
+
+
+            <Link className='navbar-links' to={'/contact'}>Contact</Link>
          
           </Nav>
           {/* <Form className="d-flex">

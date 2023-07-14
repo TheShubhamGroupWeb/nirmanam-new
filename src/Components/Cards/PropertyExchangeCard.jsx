@@ -19,14 +19,13 @@ function PropertyExchangeCard({url,heading}) {
         {/* <div className="container">
           <div className="row ">
         <div className="col-md-4 d-flex"> */}
-        <div className="col-md-5 " >
+        <div className="col-md-5" style={{display: "flex", justifyContent: "center", alignItems: "center"}} >
         <Card >
       <Card.Img variant="top" src={ExchangeCardImg} />
       <Card.Body>
-        <Card.Title>Real Estate Property Exhange</Card.Title>
+        <Card.Title>Real Estate Property Exchange</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        designed to revolutionize the way you buy, sell, or exchange properties in India. Barter or Swap of properties or house swapping is allowed under Indian Property Law and we provide you with best of the options to choose your Barter from utmost utilization and Return on Investment (ROI) to their Real Estate Property. 
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
         {/* <CustomButton customStyle={"success"} handleButtonValue={handleButtonValue}>Read More</CustomButton> */}
@@ -41,5 +40,6 @@ function PropertyExchangeCard({url,heading}) {
     </>
   )
 }
+
 
 export default PropertyExchangeCard
