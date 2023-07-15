@@ -3,7 +3,7 @@ import NavBarComponent from "../Navbar/NavBarComponent";
 import Footer from "../Footer/Footer";
 import Card from "react-bootstrap/Card";
 
-import ContactBanner from "../../images/contact/contact-banner.jpg";
+import ContactBanner from "../../images/contact/contact.jpg";
 import "./ContactStyle.css";
 import LocationIcon from "../../images/contact/location-pin.png";
 import "./ContactStyle.css";
@@ -63,10 +63,10 @@ function Contact() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12 p-0" style={{ height: "50%" }}>
+          <div className="col-12 p-0" >
             <img
               className="img-fluid"
-              style={{ width: "100%", height: "60vh", objectFit: "cover" }}
+              style={{ width: "100%", objectFit: "cover" }}
               src={ContactBanner}
               alt=""
             />
