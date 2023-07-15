@@ -47,15 +47,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.7;
+    opacity: 0.8;
     
   }
 
   .slidder-text h4{
     font-size: 2.8rem;
     line-height: 1.5;
+    text-shadow: 7px 5px 7px rgb(4, 6, 37), 2px 4px 7px black;
   }
   
+
+
+/* alternate right side text css on banner */
+.slidder-text-right{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  height: fit-content;
+  padding: 3rem;
+  z-index: 1;
+  background-color: #333;
+  filter: drop-shadow(10);
+  color: #fff;
+  box-shadow: 5px 7px 7px 7px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.slidder-text-right h4{
+  font-size: 2.8rem;
+    line-height: 1.5;
+    text-shadow: 7px 5px 15px rgb(4, 6, 37);
+
+}
+
+/* alternate right side text css on banner */
+
+
   .swiper-slide img {
     display: block;
     width: 100%;
@@ -67,7 +99,14 @@
     .slidder-text{
       width: 80%;
     }
+    .slidder-text-right{
+      width: 80%;
+    }
   }
+
+
+
+
 
   @media (max-width: 600px) {
     .slidder-text{
@@ -80,4 +119,18 @@
     .slidder-text h4{
       font-size: 1.5rem;
     }
+
+    /* we done alternate right text to banner */
+    .slidder-text-right{
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+    }
+
+    .slidder-text-right h4{
+      font-size: 1.5rem;
+
+    }
+
   }

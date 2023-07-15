@@ -7,7 +7,8 @@ import './FooterStyles.css'
 
 const CustomSection = styled.section`
     /* background-color: #2c2f44; */
-    background-color: black;
+    /* background-color: black; */
+    background-color: #002147;
     height: 100%;
     width: 100%;
     color: #fff;

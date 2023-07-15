@@ -47,7 +47,7 @@ export default function Slidder() {
 
         <SwiperSlide>
             <img className='img-fluid' src={Slidder2} alt="" />
-            <div className="slidder-text">
+            <div className="slidder-text-right">
               <h4>Vacations Homes can earn huge for you. <br /> Invest with us now!</h4>
             </div>
         </SwiperSlide>
@@ -62,7 +62,7 @@ export default function Slidder() {
     
         <SwiperSlide>
         <img className='img-fluid' src={Slidder4} alt="" />
-        <div className="slidder-text">
+        <div className="slidder-text-right">
         <h4>Don't WAIT to invest <br /> in Real Estate. <br />Invest in Real Estate, <br /> And WAIT... </h4>
             </div>
         </SwiperSlide>

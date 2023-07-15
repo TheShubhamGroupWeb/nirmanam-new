@@ -155,7 +155,7 @@ function Contact() {
           </div>
 
           <div className="col-md-4">
-            <Card style={{ backgroundColor: "black", color: "#fff" }}>
+            <Card style={{ backgroundColor: "#002147", color: "#fff" }}>
               <Card.Body>
                 <Card.Img
                   className="img-fluid mb-2 mt-1"
